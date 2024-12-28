@@ -21,3 +21,17 @@ document.querySelectorAll('.nav-link').forEach(link => {
         loadContent(url);
     });
 });
+
+        function toggleDescription(id) {
+            const description = document.getElementById(id);
+            const seeMore = description.previousElementSibling.querySelector('.see-more');
+
+            if (description.style.display === "none") {
+                description.style.display = "block";
+                seeMore.innerHTML = "...see less";
+            } else {
+                description.style.display = "none";
+                seeMore.innerHTML = "...see more";
+            }
+        }
+    
