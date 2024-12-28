@@ -76,7 +76,7 @@ body {
 }
 
 .main {
-    margin-top: 140px; /* Increase this value based on the header height */
+    padding-top: 120px; /* Ensure this matches the header's height */
 }
 
 .has-search .form-control {
