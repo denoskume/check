@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f8f9fa;}
+        .header { position: fixed; top: 0; width: 100%; background-color: #f8f9fa; z-index: 1000;}
+        .header-top, .header-bottom { display: flex; justify-content: space-between; align-items: center; padding: 5px }
+        .header-top { border-bottom: 1px solid #ccc; }
+        .profile-photo img { width: 50px; height: 50px; border-radius: 50%; border: 1px solid white; object-fit: cover; }
+        .search-container { display: flex; align-items: center; }
+        .search-container .input-group { width: 300px; }
+        .social-icons { display: flex; justify-content: flex-end; }
+        .social-icons a { margin: 0 5px; font-size: 40px; }
+        .nav { display: flex; justify-content: space-around; align-items: center; padding: 5px 0; list-style: none; margin: 0; }
+        .nav a { text-decoration: none; color: black; font-weight: bold; padding: 10px 20px; border: 2px solid white; border-radius: 20px; background-color: #e9ecef; }
+        .nav a:hover { text-decoration: underline; background-color: #ced4da; }
+        .main { margin-top: 120px; } 
+        .has-search .form-control { padding-left: 2.375rem; }
+        .has-search .form-control-feedback { position: absolute; z-index: 2; display: block; width: 2.375rem; height: 2.375rem; line-height: 2.375rem; text-align: center; pointer-events: none; color: #aaa; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Header Top -->
+        <div class="header-top container">
+            <div class="d-flex align-items-center">
+                <div class="profile-photo">
+                    <img src="photo.jpg" alt="Profile Photo">
+                </div>
+                <div class="search-container ml-3">
+                    <div class="input-group has-search">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="https://wa.me/your-number" class="fab fa-whatsapp"></a>
+                <a href="mailto:your-email@gmail.com" class="fas fa-envelope"></a>
+                <a href="https://www.linkedin.com/in/your-profile" class="fab fa-linkedin"></a>
+                <a href="sms:your-number" class="fas fa-sms"></a>
+            </div>
+        </div>
+        <!-- Header Bottom -->
+        <div class="header-bottom container">
+            <nav class="nav">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#about-me">About Me</a>
+                <a class="nav-link" href="#education">Education</a>
+                <a class="nav-link" href="#experience">Experience</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#cv">CV/Resume</a>
+                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#blog">Blog</a>
+            </nav>
+            <div class="language-selector">
+                <select class="form-control">
+                    <option value="en" selected>EN</option>
+                    <option value="fr">FR</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content -->
+    <main class="container mt-4 main">
+        <h1>Welcome to My Portfolio</h1>
+        <!-- Add your content here -->
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
