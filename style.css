@@ -169,14 +169,14 @@ h2 {
 }
 
 .top-section {
-    text-align: center;
+    
     border: 3px solid #ccc;
     background-color: #fff;
     margin-bottom: 0;
 }
 
 .middle-section {
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     background-color: #fff;
     margin-top: -1px; /* Ensure no gap between sections */
 }
