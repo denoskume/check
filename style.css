@@ -1,155 +1,64 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
+/* Start Experience Section style */
+.experience-container { 
+    max-width: 100%; 
+    width: 100%; 
+    display: flex; 
+    gap: 20px; 
+    padding: 2px; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
-.header {
-    position: fixed;
-    top: 0;
+.experience-section {
     width: 100%;
-    background-color: #f8f9fa;
-    z-index: 1000;
+    background-color: white; /* White background for experience section */ 
+    color: black; /* Text color for better contrast */ 
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.header-top, .header-bottom {
+.company-logo {
+    float: left;
+    margin-right: 20px;
+    width: 50px; /* Fixed width */
+    height: 50px; /* Fixed height */
+    border-radius: 5px; /* Rounded corners */
+    object-fit: cover; /* Ensures the image covers the area */
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3, .experience p {
+    margin: 0; /* Remove margins */
+    text-align: justify; /* Justify the text */
+}
+
+h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.description-line {
+    margin-top: 20px;
+    margin-left: 70px;
     display: flex;
+    text-align: justify;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
 }
 
-.header-top {
-    border-bottom: 1px solid #ccc;
+.description-full {
+    display: none;   
 }
 
-.profile-photo img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid white;
-    object-fit: cover;
+.see-more {
+    color: black; /* Default color */
+    cursor: pointer;
 }
 
-.search-container {
-    display: flex;
-    align-items: center;
+.see-more:hover {
+    color: blue; /* Color on hover */
 }
-
-.search-container .input-group {
-    width: 300px;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.social-icons a {
-    margin: 0 5px;
-    font-size: 40px;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5px 0;
-    list-style: none;
-    margin: 0;
-}
-
-.nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: 2px solid white;
-    border-radius: 20px;
-    background-color: #e9ecef;
-}
-
-.nav a:hover {
-    text-decoration: underline;
-    background-color: #ced4da;
-}
-
-.main {
-    padding-top: 120px; /* Ensure this matches the header's height */
-}
-
-.has-search .form-control {
-    padding-left: 2.375rem;
-}
-
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-}
-
-/* Start Experience Section style */
-        .experience-container { 
-            max-width: 1020px; 
-            width: 100%; 
-            display: flex; 
-            gap: 20px; 
-            padding: 2px; 
-           
-        }
-       
-        .experience-section {
-            width: 100%;
-            background-color: white; /* White background for experience section */ 
-            color: black; /* Text color for better contrast */ 
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .company-logo {
-            float: left;
-            margin-right: 20px;
-            width: 50px; /* Fixed width */
-            height: 50px; /* Fixed height */
-            border-radius: 5px; /* Rounded corners */
-            object-fit: cover; /* Ensures the image covers the area */
-        }
-        
-        .experience {
-            margin-bottom: 20px;
-        }
-        .experience h3, .experience p {
-            margin: 0; /* Remove margins */
-            text-align: justify; /* Justify the text */
-        }
-        h2 {
-            margin-top: 0px;
-            margin-bottom: 20px;
-        }
-        .description-line {
-            margin-top: 20px;
-            margin-left: 70px;
-            display: flex;
-            text-align: justify;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .description-full {
-            display: none;   
-        }
-        
-        .see-more {
-            color: black; /* Default color */
-            cursor: pointer;
-        }
-        .see-more:hover {
-            color: blue; /* Color on hover */
-        }
 /* End Experience Section style */   
