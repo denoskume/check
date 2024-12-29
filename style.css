@@ -370,3 +370,198 @@ hr {
 
 /* End Form Style */
 
+
+
+
+/* Start Style for Mobile */
+/* Profile Photo for Mobile View */
+.profile-photo {
+    display: none;
+}
+
+.profile-photo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Top Navigation */
+.top-navigation {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.top-navigation .profile-photo {
+    position: static;
+}
+
+.top-navigation .top-icons {
+    display: flex;
+    gap: 15px; /* Adjust gap for even spacing */
+}
+
+.top-navigation .top-icons a {
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.search-box {
+    flex-grow: 1;
+    margin-right: 15px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    z-index: 2;
+}
+
+.bottom-nav a {
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    height: 100%; /* Set to half of vertical screen */
+    width: 0;
+    position: absolute; /* Use absolute positioning */
+    z-index: 3; /* Ensure it appears above other content */
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 0;
+}
+
+.sidebar .side-nav-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .side-nav-logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.sidebar .side-nav-logo p {
+    color: #818181;
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.sidebar .side-nav-photo {
+    text-align: left;
+    margin-bottom: 3px;
+}
+
+.sidebar .side-nav-photo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .side-nav-headline h3 {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sidebar .side-nav-headline p {
+    color: #818181;
+    font-size: 14px;
+}
+
+.sidebar .company-info {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.sidebar .company-info img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.sidebar .company-info p {
+    color: #818181;
+    font-size: 14px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+    nav .navbar-brand,
+    .navbar-toggler {
+        display: none; /* Hide home and hamburger icons on mobile */
+    }
+    nav {
+        display: none; /* Hide navigation on mobile */
+    }
+    .top-navigation {
+        display: flex; /* Show top navigation on mobile */
+    }
+    .bottom-nav {
+        display: flex; /* Show bottom navigation on mobile */
+    }
+    .profile-photo {
+        display: flex; /* Show profile photo on mobile */
+    }
+    .top-navigation .top-icons {
+        display: flex; /* Show top icons on mobile */
+    }
+}
+
+/* Hide top and bottom menus on scroll */
+.hide {
+    display: none !important;
+}
+
+/* Restrict scrolling when sidebar is expanded */
+body.no-scroll {
+    overflow: hidden;
+}
+/* End Style for Mobile */
