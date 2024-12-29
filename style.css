@@ -234,9 +234,9 @@ hr {
         position: absolute;
         left: 0;
         top: 0;
-        width: 210mm; /* A4 width */
-        height: 297mm; /* A4 height */
-        padding: 20mm; /* Padding for print */
+        width: 29.7cm; /* A4 width */
+        height: 42cm; /* A4 height */
+        padding: 10mm; /* Padding for print */
         box-sizing: border-box;
     }
 
