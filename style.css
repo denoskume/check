@@ -170,14 +170,15 @@ h2 {
 }
 
 .top-section {
-    max-width: 100%;
-    border: 1px solid #ccc;
-    background-color: #fff;
+   /* max-width: 100%;*/
+    border: 2px solid #ccc;
+    background-color: #f8f9fa;
     margin-bottom: 0;
+    
 }
 
 .middle-section {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     background-color: #fff;
     margin-top: -1px; /* Ensure no gap between sections */
 }
@@ -242,10 +243,10 @@ hr {
         position: absolute;
         left: 0;
         top: 0;
-        width: 29.7cm; /* A4 width */
-        height: 42cm; /* A4 height */
-        padding: 10mm; /* Padding for print */
-        /*box-sizing: border-box;*/
+        width: 29.7cm; 
+        height: 42cm; 
+        padding: 5mm; /* Padding for print */
+        box-sizing: border-box;
     }
 
     .print-button {
