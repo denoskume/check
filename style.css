@@ -166,6 +166,7 @@ h2 {
 /* Start Resume/CV Style */
 .section {
     padding: 0; /* Remove padding to eliminate gaps */
+    width: 100px;
 }
 
 .top-section {
