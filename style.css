@@ -218,4 +218,36 @@ hr {
         max-width: 100%;
     }
 }
+
+
+/* Print Styles */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #cv, #cv * {
+        visibility: visible;
+    }
+
+    #cv {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 210mm; /* A4 width */
+        height: 297mm; /* A4 height */
+        padding: 20mm; /* Padding for print */
+        box-sizing: border-box;
+    }
+
+    .print-button {
+        display: none;
+    }
+
+    .group-top, .group-middle, .group-right {
+        page-break-inside: avoid;
+    }
+}
+
+
 /* End Resume/CV Style */
