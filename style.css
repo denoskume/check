@@ -162,38 +162,30 @@ h2 {
 /* End Experience Section style */   
 
 
+
 /* Start Resume/CV Style */
 .section {
-    margin-bottom: 2px;
     padding: 0; /* Remove padding to eliminate gaps */
 }
 
-.top-sections {
+.top-section {
     text-align: center;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 0;
 }
 
-.middle-sections .row {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.middle-sections .col-md-8 {
-    flex: 0 0 70%;
-    max-width: 70%;
-}
-
-.middle-sections .col-md-4 {
-    flex: 0 0 30%;
-    max-width: 30%;
+.middle-section {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-top: -1px; /* Ensure no gap between sections */
 }
 
 .group-top,
 .group-middle,
 .group-right {
     padding: 20px 0; /* Remove padding to eliminate gaps */
-    border: 1px solid #ccc;
     border-radius: 0; /* Remove border radius to eliminate gaps */
-    margin-bottom: 0; /* Remove margin to eliminate gaps */
     background-color: #fff;
 }
 
@@ -226,4 +218,3 @@ hr {
     }
 }
 /* End Resume/CV Style */
-
