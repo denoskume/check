@@ -1,3 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    z-index: 1000;
+}
+
+.header-top, .header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.header-top {
+    border-bottom: 1px solid #ccc;
+}
+
+.profile-photo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    object-fit: cover;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container .input-group {
+    width: 300px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    font-size: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    list-style: none;
+    margin: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: #e9ecef;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    background-color: #ced4da;
+}
+
+.main {
+    padding-top: 120px; /* Ensure this matches the header's height */
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
 /* Start Experience Section style */
 .experience-container { 
     max-width: 100%; 
