@@ -196,13 +196,14 @@ h2 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
+    background-color: #ced4da;
 }
 
 .group-top h2:hover, 
 .group-middle h2:hover, 
 .group-right h2:hover { 
     text-decoration: underline; 
-    background-color: #ced4da;
+    color:#f8f9fa;
 }
 
 .group-top p,
