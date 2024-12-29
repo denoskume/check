@@ -160,3 +160,83 @@ h2 {
     color: blue; /* Color on hover */
 }
 /* End Experience Section style */   
+
+
+/* Start Resume/CV Style */
+.section {
+    margin-bottom: 50px;
+}
+
+.top-sections {
+    text-align: center;
+}
+
+.middle-sections .row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.middle-sections .col-md-8 {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+
+.middle-sections .col-md-4 {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+.contact-info,
+.profile,
+.education,
+.experience,
+.projects,
+.extracurricular,
+.skills,
+.certifications,
+.affiliations,
+.interests {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.contact-info h2,
+.profile h2,
+.education h2,
+.experience h2,
+.projects h2,
+.extracurricular h2,
+.skills h2,
+.certifications h2,
+.affiliations h2,
+.interests h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p,
+.profile p,
+.education ul,
+.experience ul,
+.projects ul,
+.extracurricular ul,
+.skills ul,
+.certifications ul,
+.affiliations ul,
+.interests p {
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .middle-sections .col-md-8, .middle-sections .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* End Resume/CV Style */
+
