@@ -237,7 +237,7 @@ hr {
         width: 210mm; /* A4 width */
         height: 297mm; /* A4 height */
         padding: 20mm; /* Padding for print */
-        box-sizing: border-box;
+        
     }
 
     .print-button {
