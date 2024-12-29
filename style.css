@@ -175,8 +175,8 @@ h2 {
     border: 2px solid #ccc;
     background-color: #fff;
     margin-bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 0;
+    
     
     
 }
@@ -187,7 +187,7 @@ h2 {
     margin-top: -1px; /* Ensure no gap between sections */
 }
 
-.group-top,
+/*.group-top,*/
 .group-middle,
 .group-right {
     padding: 20px 0; /* Remove padding to eliminate gaps */
