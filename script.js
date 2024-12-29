@@ -34,4 +34,20 @@ document.querySelectorAll('.nav-link').forEach(link => {
                 seeMore.innerHTML = "...see more";
             }
         }
-    
+
+// Download Resume as PDF
+document.getElementById('download-btn').addEventListener('click', function() {
+    const { jsPDF } = window.jspdf;
+
+    const doc = new jsPDF();
+    const content = document.getElementById('content');
+
+    doc.html(content, {
+        callback: function (doc) {
+            doc.save('resume.pdf');
+        },
+        x: 10,
+        y: 10
+    });
+});
+
