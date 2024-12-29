@@ -186,16 +186,9 @@ h2 {
     max-width: 30%;
 }
 
-.contact-info,
-.profile,
-.education,
-.experience,
-.projects,
-.extracurricular,
-.skills,
-.certifications,
-.affiliations,
-.interests {
+.group-top,
+.group-middle,
+.group-right {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -203,31 +196,17 @@ h2 {
     background-color: #fff;
 }
 
-.contact-info h2,
-.profile h2,
-.education h2,
-.experience h2,
-.projects h2,
-.extracurricular h2,
-.skills h2,
-.certifications h2,
-.affiliations h2,
-.interests h2 {
+.group-top h2,
+.group-middle h2,
+.group-right h2 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
 }
 
-.contact-info p,
-.profile p,
-.education ul,
-.experience ul,
-.projects ul,
-.extracurricular ul,
-.skills ul,
-.certifications ul,
-.affiliations ul,
-.interests p {
+.group-top p,
+.group-middle ul,
+.group-right ul {
     font-size: 16px;
     color: #666;
 }
