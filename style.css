@@ -175,7 +175,7 @@ h2 {
     border: 2px solid #ccc;
     background-color: #fff;
     margin: 0;
-    padding: 0;
+    padding-left: -30px;
     
     
     
@@ -207,7 +207,6 @@ h2 {
 .group-top h2:hover, 
 .group-middle h2:hover, 
 .group-right h2:hover { 
-    text-decoration: underline; 
     color:#f8f9fa;
 }
 
