@@ -169,7 +169,7 @@ h2 {
 }
 
 .top-section {
-    
+    max-width: 100%;
     border: 3px solid #ccc;
     background-color: #fff;
     margin-bottom: 0;
