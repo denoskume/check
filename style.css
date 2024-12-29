@@ -253,9 +253,15 @@ hr {
     }
 
     .group-top, .group-middle, .group-right {
-       /* page-break-inside: avoid; */
+        page-break-inside: avoid; 
     }
-}
 
+
+.group-top h2, 
+.group-middle h2, 
+.group-right h2 { 
+    background-color: #ced4da; 
+  } 
+}
 
 /* End Resume/CV Style */
