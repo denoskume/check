@@ -532,6 +532,26 @@ hr {
     color: #f1f1f1;
 }
 
+
+/* For larger screens */
+@media screen and (min-width: 769px) {
+    #banner-large,
+    #profile-area {
+        display: block;
+    }
+    nav {
+        display: block; /* Show navigation on larger screens */
+        position: relative; /* Position relative to place it below the banner */
+        top: 10px; /* Adjust as needed */
+    }
+    .top-navigation,
+    .bottom-nav,
+    .top-navigation .profile-photo,
+    .top-navigation .top-icons {
+        display: none; /* Hide on larger screens */
+    }
+}
+
 /* For smaller screens */
 @media screen and (max-width: 768px) {
     nav .navbar-brand,
