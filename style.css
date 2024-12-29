@@ -272,11 +272,9 @@ hr {
         
         .form-container {
             width:50%;
-            margin: 50px;
+            margin-left: 120px;
             border-radius: 30px;
-            padding-left: 230px;
-            padding-right: 230px;
-            background-color:khaki;
+            background-color: khaki;
             align-items: center;
             
         }
