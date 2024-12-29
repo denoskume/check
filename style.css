@@ -171,13 +171,13 @@ h2 {
 
 .top-section {
     max-width: 100%;
-    border: 3px solid #ccc;
+    border: 1px solid #ccc;
     background-color: #fff;
     margin-bottom: 0;
 }
 
 .middle-section {
-    border: 3px solid #ccc;
+    border: 1px solid #ccc;
     background-color: #fff;
     margin-top: -1px; /* Ensure no gap between sections */
 }
@@ -196,6 +196,13 @@ h2 {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
+}
+
+.group-top h2:hover, 
+.group-middle h2:hover, 
+.group-right h2:hover { 
+    text-decoration: underline; 
+    background-color: #ced4da;
 }
 
 .group-top p,
