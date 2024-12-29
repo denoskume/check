@@ -71,8 +71,9 @@ body {
 }
 
 .nav a:hover {
-    text-decoration: underline;
-    background-color: #ced4da;
+    /*text-decoration: underline;*/
+    /*background-color: #ced4da;*/
+    color:#f8f9fa;
 }
 
 .main {
@@ -172,7 +173,7 @@ h2 {
 .top-section {
    /* max-width: 100%;*/
     border: 2px solid #ccc;
-    background-color: #f8f9fa;
+    background-color: #fff;
     margin-bottom: 0;
     
 }
