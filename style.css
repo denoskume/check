@@ -174,7 +174,7 @@ h2 {
     max-width: 100%;
     border: 2px solid #ccc;
     background-color: #fff;
-    margin-bottom: 0;
+    margin: 0;
     padding: 0;
     
     
@@ -190,7 +190,7 @@ h2 {
 .group-top,
 .group-middle,
 .group-right {
-    /*padding: 20px 0; */ /* Remove padding to eliminate gaps */
+    padding: 20px 0; /* Remove padding to eliminate gaps */
     border-radius: 0; /* Remove border radius to eliminate gaps */
     background-color: #fff;
 }
