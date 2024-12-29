@@ -273,7 +273,8 @@ hr {
         .form-container {
             margin-top: 50px;
             border-radius: 30px;
-            padding: 110px;
+            padding-left: 230px;
+            padding-right: 230px;
             
         }
         .form-container h2 {
