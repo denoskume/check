@@ -232,6 +232,13 @@ h2 {
     color: #666;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+}
+
 @media (max-width: 768px) {
     .middle-sections .col-md-8, .middle-sections .col-md-4 {
         flex: 0 0 100%;
@@ -239,4 +246,3 @@ h2 {
     }
 }
 /* End Resume/CV Style */
-
