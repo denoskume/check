@@ -12,6 +12,52 @@
 </head>
 <body>
     <header class="header">
+
+      <!-- Top Navigation for Mobile -->
+        <div class="top-navigation">
+            <div class="profile-photo">
+                <img src="images/profile-photo.jpg" alt="Profile Photo" id="profilePhoto" onclick="openNav()">
+            </div>
+            <div class="top-icons">
+                
+                <a href="https://wa.me/+918105687851" class="text-dark"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:denoskume77@gmail.com" class="text-dark"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/denos-kume" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="html/form.html" class="text-dark"><i class="fas fa-comment"></i></a> </li>
+            </div>
+        </div>
+
+        <!-- Sidebar Navigation -->
+        <div id="sidebar" class="sidebar">
+            <!-- Section 1: Profile Photo, Headline, and Company Info -->
+            <section class="side-nav-section">
+                <div class="side-nav-photo">
+                    <img src="images/profile-photo.jpg" alt="Profile Photo">
+                    <div class="side-nav-headline">
+                        <h3>Denos Kume</h3>
+                        <p>Founder, Dedoole & Data Analyst • Ex-Secretary, ISF • IEEE Member</p>
+                        <div class="company-info">
+                            <img src="images/unifiedmentor.png" alt="Company Logo" class="company-logo">
+                            <p>Unified Mentor</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <!-- Section 2: Navigation Links -->
+            <section class="side-nav-section">
+                <a href="#about">About</a>
+                <a href="html/experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+            </section>
+            <hr>
+            <!-- Section 3: Settings -->
+            <section class="side-nav-section">
+                <a href="#settings"><i class="fas fa-cog"></i> Settings</a>
+            </section>
+        </div>
+        
         <!-- Header Top -->
         <div class="header-top container-fluid">
             <div class="d-flex align-items-center">
@@ -60,6 +106,15 @@
     <main class="container-fluid mt-4 main" id="content">
         <!-- Dynamic content will be loaded here -->
     </main>
+
+     <!-- Bottom Navigation -->
+    <div class="bottom-nav">
+        <a href="#home"><i class="fas fa-home"></i></a>
+        <a href="#education"><i class="fas fa-graduation-cap"></i></a>
+        <a href="#projects"><i class="fas fa-briefcase"></i></a>
+        <a href="html/experience.html"><i class="fas fa-chart-line"></i></a>
+        <a href="#resume"><i class="fas fa-file-alt"></i></a>
+    </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
