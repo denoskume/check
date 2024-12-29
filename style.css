@@ -71,8 +71,6 @@ body {
 }
 
 .nav a:hover {
-    /*text-decoration: underline;*/
-    /*background-color: #ced4da;*/
     color:#f8f9fa;
 }
 
@@ -98,6 +96,7 @@ body {
 
 
 /* Start Experience Section style */
+
 .experience-container { 
     max-width: 100%; 
     width: 100%; 
