@@ -272,6 +272,8 @@ hr {
         
         .form-container {
             margin-top: 50px;
+            border-radius: 30px;
+            
         }
         .form-container h2 {
             text-align: center;
