@@ -271,8 +271,10 @@ hr {
 /* Start Form Style */
 
 .container-form {
-            width: 70%;
+            width: 100%;
             margin-top: 30px;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
         }
         h2 {
             text-align: center;
