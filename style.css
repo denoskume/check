@@ -96,7 +96,7 @@ body {
 }
 
 /* Start Experience Section style */
-        .container-experience { 
+        .experience-container { 
             max-width: 1020px; 
             width: 100%; 
             display: flex; 
