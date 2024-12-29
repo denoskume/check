@@ -271,7 +271,8 @@ hr {
 /* Start Form Style */
 
 .container-form {
-            margin-top: 50px;
+            width: 70%;
+            margin-top: 30px;
         }
         h2 {
             text-align: center;
