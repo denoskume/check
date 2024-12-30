@@ -49,8 +49,6 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Portfolio page loaded');
 
     const profilePhoto = document.getElementById('profilePhoto');
-    const sidebar = document.getElementById('sidebar');
-    const main = document.getElementById('main');
     const topIcons = document.querySelector('.top-icons');
     const bottomNav = document.querySelector('.bottom-nav');
     let lastScrollTop = 0;
