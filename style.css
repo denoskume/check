@@ -526,7 +526,7 @@ hr {
     flex: 1;
     /*padding: 20px; */
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 10px 0 10px 10px;
     border: 2px solid white; /* Changed border to white */
     background-color: black; /* Set background color to white */
 }
@@ -534,7 +534,7 @@ hr {
     flex: 1;
     /*padding: 20px;*/
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 0 10px 10px 10px;
     border: 2px solid white; /* Changed border to white */
     background-color: red; /* Set background color to white */
 }
