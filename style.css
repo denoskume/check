@@ -523,8 +523,8 @@ hr {
     margin-top: 10px;
 }
 .aboutleft-container {
-    flex: 0 0 40%;
-    padding: 20px;
+    flex: 1;
+    /*padding: 20px; */
     box-sizing: border-box;
     border-radius: 10px;
     border: 2px solid white; /* Changed border to white */
@@ -532,7 +532,7 @@ hr {
 }
 .aboutright-container {
     flex: 1;
-    padding: 20px;
+    /*padding: 20px;*/
     box-sizing: border-box;
     border-radius: 10px;
     border: 2px solid white; /* Changed border to white */
