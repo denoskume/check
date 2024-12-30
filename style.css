@@ -450,7 +450,7 @@ hr {
     }
     .top-navigation,
     .bottom-nav,
-    .top-navigation .profile-photo,
+    .top-navigation 
     .top-navigation .top-icons {
         display: none; /* Hide on larger screens */
     }
