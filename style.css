@@ -525,20 +525,20 @@ hr {
 .aboutleft-container {
     flex: 1;
     padding: 20px; 
-    margin-right: -12px;
+    margin-right: -15px;
     box-sizing: border-box;
     border-radius: 10px 0 10px 10px;
     border: 2px solid white; /* Changed border to white */
-    background-color: black; /* Set background color to white */
+    background-color: #f3f5f5; /* Set background color to white */
 }
 .aboutright-container {
     flex: 1;
     padding: 20px;
-    margin-left: -12px;
+    margin-left: -15px;
     box-sizing: border-box;
     border-radius: 0 10px 10px 10px;
     border: 2px solid white; /* Changed border to white */
-    background-color: red; /* Set background color to white */
+    background-color: #f3f5f5; /* Set background color to white */
 }
 .aboutcontact-info {
     display: flex;
