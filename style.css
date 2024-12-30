@@ -494,14 +494,14 @@ hr {
 /* ABOUTB STYLE TEST1 * /
  
 .about-banner {
-    top: 55px;
+    top: 0 px;
     width: 100%;
     height: 100px;
-    background-image: url('banner.png'); /* Replace with the URL of the banner image */
+   /' background-image: url('banner.png'); /* Replace with the URL of the banner image */
     background-size: cover;
     background-position: center;
-    position: fixed;
-    margin-top: 50px; 
+    background-color: blue;
+    position: relative;
     z-index: 500; 
 }
 .about-photo {
@@ -528,14 +528,14 @@ hr {
     box-sizing: border-box;
     border-radius: 10px;
     border: 2px solid white; /* Changed border to white */
-    background-color: white; /* Set background color to white */
+    background-color: black; /* Set background color to white */
 }
 .aboutright-container {
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
     border: 2px solid white; /* Changed border to white */
-    background-color: white; /* Set background color to white */
+    background-color: red; /* Set background color to white */
 }
 .aboutcontact-info {
     display: flex;
