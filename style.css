@@ -578,10 +578,6 @@ hr {
     .top-navigation .top-icons {
         display: flex; /* Show top icons on mobile */
     }
-
-    .sidebar { 
-        display: block; /* Show sidebar on mobile */ 
-    }
 }
 
 /* Hide top and bottom menus on scroll */
