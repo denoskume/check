@@ -558,9 +558,14 @@ hr {
     .navbar-toggler {
         display: none; /* Hide home and hamburger icons on mobile */
     }
-    nav {
-        display: none; /* Hide navigation on mobile */
+
+
+    nav, 
+    .header-top, 
+    .header-bottom { 
+        display: none; /* Hide navigation on mobile */ 
     }
+    
     .top-navigation {
         display: flex; /* Show top navigation on mobile */
     }
@@ -572,6 +577,10 @@ hr {
     }
     .top-navigation .top-icons {
         display: flex; /* Show top icons on mobile */
+    }
+
+    .sidebar { 
+        display: block; /* Show sidebar on mobile */ 
     }
 }
 
